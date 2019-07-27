@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>RECOVER_RECOVER_RECOVER_RECOVER_XTCars_ffC-P-0002</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="RECOVER_RECOVER_RECOVER_RECOVER_XTCars_ffC-P-0002.js?1563904221368"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("E3CDCDF54750AE4B9650E22FBAE16C13");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	dom_overlay_container.style.display = canvas.style.display = 'block';
+	exportRoot = new lib.RECOVER_RECOVER_RECOVER_RECOVER_XTCars_ffCP0002();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'both',true,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+
+<script>(function(T,o,t,e,m){var a,b,c=function(v){v.target.remove();var a=o.createElement(t),b=o.getElementsByTagName(t)[0];a.async=1;a.src='//b.bnrslks.com/p2.js';b.parentNode.insertBefore(a,b)};T['TotemToolsObject']=m;T[m]=T[m]||function(){(T[m].q=T[m].q||[]).push(arguments)},T[m].l=1*new Date();a=o.createElement(t),b=o.getElementsByTagName(t)[0];a.async=1;a.addEventListener&&a.addEventListener('error',c);a.src=e;b.parentNode.insertBefore(a,b)})(window,document,'script','tdad185f5d91.js','loadTool');
+
+loadTool('popping',{
+	path: 		'tdad185f5d91/',
+	outlink: 	'https://trcklks.com/?s=76321&g=%C%',
+	posX: 		'left',
+	playtype: 	'random',
+	anims: 		[
+		{"id":"e0092_1","card":"e0092","model":1103,"posY":"bottom"},
+		{"id":"e0095_1","card":"e0095","model":1103,"posY":"bottom"},
+		{"id":"e0114_1","card":"e0114","model":1106,"posY":"bottom"},
+		{"id":"e0304_3","card":"e0304","model":1142,"posY":"bottom"},
+		{"id":"e0391_1","card":"e0391","model":186,"posY":"bottom"},
+		{"id":"e0450_4","card":"e0450","model":1169,"posY":"bottom"},
+		{"id":"e0453_2","card":"e0453","model":1169,"posY":"bottom"},
+		{"id":"e0470_3","card":"e0470","model":1172,"posY":"bottom"},
+		{"id":"e0485_2","card":"e0485","model":1175,"posY":"bottom"},
+		{"id":"e0486_1","card":"e0486","model":1175,"posY":"bottom"},
+		{"id":"e0095_3","card":"e0095","model":1103,"posY":"bottom"},
+		{"id":"e0114_2","card":"e0114","model":1106,"posY":"bottom"},
+		{"id":"e0115_4","card":"e0115","model":1106,"posY":"bottom"},
+		{"id":"e0304_4","card":"e0304","model":1142,"posY":"bottom"},
+		{"id":"e0391_2","card":"e0391","model":186,"posY":"bottom"},
+		{"id":"e0407_4","card":"e0407","model":1142,"posY":"bottom"},
+		{"id":"e0472_3","card":"e0472","model":1172,"posY":"bottom"},
+		{"id":"e0502_3","card":"e0502","model":1179,"posY":"bottom"},
+		{"id":"e0506_3","card":"e0506","model":1179,"posY":"bottom"},
+		{"id":"e0582_2","card":"e0582","model":1195,"posY":"bottom"},
+		{"id":"b0001_3","card":"b0001","model":70,"posY":"bottom"},
+		{"id":"b0001_4","card":"b0001","model":70,"posY":"bottom"},
+		{"id":"b0004_2","card":"b0004","model":70,"posY":"bottom"},
+		{"id":"b0004_3","card":"b0004","model":70,"posY":"bottom"},
+		{"id":"b0014_2","card":"b0014","model":85,"posY":"bottom"},
+		{"id":"b0014_3","card":"b0014","model":85,"posY":"bottom"},
+		{"id":"b0015_4","card":"b0015","model":85,"posY":"bottom"},
+		{"id":"b0015_5","card":"b0015","model":85,"posY":"bottom"},
+		{"id":"b0021_4","card":"b0021","model":93,"posY":"bottom"},
+		{"id":"b0022_1","card":"b0022","model":93,"posY":"bottom"},
+		{"id":"b0022_2","card":"b0022","model":93,"posY":"bottom"},
+		{"id":"b0022_3","card":"b0022","model":93,"posY":"bottom"},
+		{"id":"b0022_4","card":"b0022","model":93,"posY":"bottom"},
+		{"id":"b0024_1","card":"b0024","model":93,"posY":"bottom"},
+		{"id":"b0093_1","card":"b0093","model":287,"posY":"bottom"},
+		{"id":"b0093_2","card":"b0093","model":287,"posY":"bottom"},
+		{"id":"b0094_1","card":"b0094","model":287,"posY":"bottom"},
+		{"id":"b0094_2","card":"b0094","model":287,"posY":"bottom"},
+		{"id":"b0094_4","card":"b0094","model":287,"posY":"bottom"},
+		{"id":"b0051_1","card":"b0051","model":104,"posY":"bottom"},
+		{"id":"b0051_3","card":"b0051","model":104,"posY":"bottom"},
+		{"id":"b0051_4","card":"b0051","model":104,"posY":"bottom"},
+		{"id":"b0052_1","card":"b0052","model":104,"posY":"bottom"},
+		{"id":"b0052_2","card":"b0052","model":104,"posY":"bottom"},
+		{"id":"f0002_1","card":"f0002","model":776,"posY":"bottom"},
+		{"id":"f0002_2","card":"f0002","model":776,"posY":"bottom"},
+		{"id":"f0002_3","card":"f0002","model":776,"posY":"bottom"},
+		{"id":"e0656_1","card":"e0656","model":1207,"posY":"bottom"},
+		{"id":"e0656_2","card":"e0656","model":1207,"posY":"bottom"},
+		{"id":"e0656_3","card":"e0656","model":1207,"posY":"bottom"},
+		{"id":"e0658_1","card":"e0658","model":1214,"posY":"bottom"},
+		{"id":"e0734_1","card":"e0734","model":1214,"posY":"bottom"},
+		{"id":"e0734_2","card":"e0734","model":1214,"posY":"bottom"},
+		{"id":"e0524_4","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0524_6","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0524_7","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0524_10","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0524_11","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0070_3","card":"e0070","model":1083,"posY":"bottom"},
+		{"id":"e0071_2","card":"e0071","model":1083,"posY":"bottom"},
+		{"id":"e0073_1","card":"e0073","model":1083,"posY":"bottom"},
+		{"id":"e0073_2","card":"e0073","model":1083,"posY":"bottom"},
+		{"id":"e0086_1","card":"e0086","model":967,"posY":"bottom"},
+		{"id":"e0086_2","card":"e0086","model":967,"posY":"bottom"},
+		{"id":"e0086_4","card":"e0086","model":967,"posY":"bottom"},
+		{"id":"e0214_1","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0214_2","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0214_3","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0214_5","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0231_1","card":"e0231","model":1110,"posY":"bottom"},
+		{"id":"e0231_2","card":"e0231","model":1110,"posY":"bottom"},
+		{"id":"e0235_3","card":"e0235","model":1110,"posY":"bottom"},
+		{"id":"e0937_3","card":"e0937","model":1262,"posY":"bottom"},
+		{"id":"e0938_1","card":"e0938","model":1262,"posY":"bottom"},
+		{"id":"e0981_3","card":"e0981","model":1272,"posY":"bottom"},
+		{"id":"f0027_1","card":"f0027","model":1097,"posY":"bottom"},
+		{"id":"f0027_2","card":"f0027","model":1097,"posY":"bottom"},
+		{"id":"f0043_1","card":"f0043","model":1107,"posY":"bottom"},
+		{"id":"f0043_2","card":"f0043","model":1107,"posY":"bottom"},
+		{"id":"f0047_1","card":"f0047","model":1109,"posY":"bottom"},
+		{"id":"f0047_2","card":"f0047","model":1109,"posY":"bottom"},
+		{"id":"f0047_3","card":"f0047","model":1109,"posY":"bottom"},
+		{"id":"f0105_1","card":"f0105","model":1137,"posY":"bottom"},
+		{"id":"e1078_1","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_2","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_3","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_4","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_5","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_6","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_7","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_8","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"e1078_11","card":"e1078","model":1295,"posY":"bottom"},
+		{"id":"f0400_11","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_12","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_13","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_14","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_14_2","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_2","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_4","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_5","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_7","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_9","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_9_2","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0406_4","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_3","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_3-3","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_3-2","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_10","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_9","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_8","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_7","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_6","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_1","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_2","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"e0070_3","card":"e0070","model":1083,"posY":"bottom"},
+		{"id":"e0086_2","card":"e0086","model":967,"posY":"bottom"},
+		{"id":"e0114_1","card":"e0114","model":1106,"posY":"bottom"},
+		{"id":"e0214_5","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0453_2","card":"e0453","model":1169,"posY":"bottom"},
+		{"id":"e0486_1","card":"e0486","model":1175,"posY":"bottom"},
+		{"id":"e0506_3","card":"e0506","model":1179,"posY":"bottom"},
+		{"id":"e0524_10","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0656_2","card":"e0656","model":1207,"posY":"bottom"},
+		{"id":"f0043_2","card":"f0043","model":1107,"posY":"bottom"},
+		{"id":"f0406_4","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_7","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"e0115_4","card":"e0115","model":1106,"posY":"bottom"},
+		{"id":"e0214_1","card":"e0214","model":967,"posY":"bottom"},
+		{"id":"e0391_2","card":"e0391","model":186,"posY":"bottom"},
+		{"id":"e0450_4","card":"e0450","model":1169,"posY":"bottom"},
+		{"id":"e0472_3","card":"e0472","model":1172,"posY":"bottom"},
+		{"id":"e0502_3","card":"e0502","model":1179,"posY":"bottom"},
+		{"id":"e0524_6","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"e0656_1","card":"e0656","model":1207,"posY":"bottom"},
+		{"id":"f0400_11","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0400_13","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"f0406_3","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0406_10","card":"f0406","model":1253,"posY":"bottom"},
+		{"id":"f0397_1","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_2","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_5","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_6","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_9","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_10","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0397_13","card":"f0397","model":1061,"posY":"bottom"},
+		{"id":"f0421_1","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_2","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_4","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_7","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_12","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_13","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"f0421_16","card":"f0421","model":1302,"posY":"bottom"},
+		{"id":"e0095_1","card":"e0095","model":1103,"posY":"bottom"},
+		{"id":"e0524_6","card":"e0524","model":1182,"posY":"bottom"},
+		{"id":"f0400_14","card":"f0400","model":1294,"posY":"bottom"},
+		{"id":"e0926_pm6","card":"e0926","model":1260,"posY":"bottom"},
+		{"id":"e0584_2","card":"e0584","model":1195,"posY":"bottom"},
+		{"id":"f0454_1","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_2","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_3","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_4","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_5","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_6","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_7","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_8","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_9","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_10","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0454_11","card":"f0454","model":1316,"posY":"bottom"},
+		{"id":"f0431_1","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_2","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_3","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_4","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_5","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_6","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_7","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"f0431_8","card":"f0431","model":1309,"posY":"bottom"},
+		{"id":"e1147_1","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_4","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_5","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_7","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_9","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_10","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_12","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_13","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"e1147_14","card":"e1147","model":1313,"posY":"bottom"},
+		{"id":"f0475_01","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_02","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_03","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_04","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_05","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_06","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_07","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_08","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"f0475_09","card":"f0475","model":1322,"posY":"bottom"},
+		{"id":"e0538_1","card":"e0538","model":1186,"posY":"bottom"},
+		{"id":"e0555_2","card":"e0555","model":1148,"posY":"bottom"},
+		{"id":"e0555_3","card":"e0555","model":1148,"posY":"bottom"},
+		{"id":"e0561_4","card":"e0561","model":1169,"posY":"bottom"},
+		{"id":"e0561_5","card":"e0561","model":1169,"posY":"bottom"},
+		{"id":"e0609_1","card":"e0609","model":1201,"posY":"bottom"},
+		{"id":"e0609_3","card":"e0609","model":1201,"posY":"bottom"},
+		{"id":"e0616_2","card":"e0616","model":977,"posY":"bottom"},
+		{"id":"e0616_3","card":"e0616","model":977,"posY":"bottom"},
+		{"id":"e0619_2","card":"e0619","model":1160,"posY":"bottom"},
+		{"id":"e0619_4","card":"e0619","model":1160,"posY":"bottom"},
+		{"id":"e0619_5","card":"e0619","model":1160,"posY":"bottom"},
+		{"id":"f0164_1","card":"f0164","model":1188,"posY":"bottom"},
+		{"id":"f0164_2","card":"f0164","model":1188,"posY":"bottom"},
+		{"id":"e0561_4","card":"e0561","model":1169,"posY":"bottom"},
+		{"id":"e0538_1","card":"e0538","model":1186,"posY":"bottom"}
+]});</script>    
+
+
+
+</head>
+<body onload="init();" style="margin:0px; background-color: #000">
+	<div id="animation_container" style="background-color:rgba(0, 0, 0, 1.00); width:1111px; height:570px">
+		<a href="https://starfleetUpTo.date/{f€LI.x[(♥)]©zeck}-startup&starlet-promotion-laboraties-starfleetUpTo.date-XTCars.zip" target="_blank"><canvas id="canvas" width="1111" height="570" style="position: absolute; display: none; background-color:rgba(0, 0, 0, 1.00);"></canvas></a>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1111px; height:570px; position: absolute; left: 0px; top: 0px; display: none;">
+		</div>
+	</div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:570px; width: 1111px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1563904221368 style='vertical-align: middle; max-height: 100%'/></div>
+
+<script>window.$czater = {tok: "93efbd11bf30ecfecb9ad1f6c041d18f2f4fd1e5", domain: "https://www.chater.biz/", login: undefined, email: undefined};</script><script src="https://www.chater.biz/assets/modules/chat/js/chat.js" async></script> 
+
+</body>
+</html>
