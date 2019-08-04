@@ -1,9 +1,9 @@
-﻿Starfleet XTCars by {f€LI.x[(♥)]©zeck} ... currently active at https://starfleetUpTo.date
+﻿Starfleet XTCars by {f€LI.x[(♥)]©zeck} 
 
 
 
 Enough from the war between the Dominion and the Federation? Wanna pimp up for peace and common iDEAL like success?
-So download .zip with adobe animate cc .fla file here:
+The additional .zip with adobe animate cc .fla  for html5 can be downloaded here:
 
 https://starfleetUpTo.date/{f€LI.x[(♥)]©zeck}-startup&starlet-promotion-laboraties-starfleetUpTo.date-XTCars.zip
 
